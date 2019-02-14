@@ -1,0 +1,72 @@
+.example-fill-remaining-space {
+  /* This fills the remaining space, by using flexbox.
+     Every toolbar row uses a flexbox row layout. */
+  flex: 1 1 auto;
+}
+
+
+.page-section{
+  overflow: hidden;
+}
+
+
+.test-form{
+  margin:2rem 0;
+}
+.example-form{
+  display: flex;
+  flex-direction: column;
+}
+
+.mat-focused
+{
+  /deep/.mat-form-field-label{
+    color: #ed008c;
+    }
+
+    /deep/ input{
+      border-bottom-color:#ed008c !important;
+      outline: #ed008c;
+    }
+}
+
+.create-service-button{
+
+
+}
+
+.slider-cover{
+  width: 100%;
+  .slider-label{
+    width:30%;
+  }
+  mat-slider{
+    width:70%;
+  }
+}
+
+.graph-button{
+  margin:1.5rem auto;
+}
+
+.popup-overlay{
+  background: rgba(0,0,0,0.3);
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.popup-content{
+  background: white;
+  border-radius: 1px;
+  z-index: 3;
+  padding: 2rem;
+  position: relative;
+}
+
+
+.close-icon{
+
+}
