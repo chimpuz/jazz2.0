@@ -1,1 +1,12 @@
-/src/app/approvers-component
+e2e/*
+src/app/create-service/*
+src/app/graph/*
+src/app/oss-component/*
+src/app/sidebar/*
+src/app/create-service/*
+src/app/slider-configurable-example/*
+src/app/app.component.html
+app.component.scss
+src/app/app.component.spec.ts
+src/app/app.component.ts
+# etc
