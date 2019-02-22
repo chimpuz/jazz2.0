@@ -1,7 +1,0 @@
-<section (click)="onClose(false)" [class.background]="createServiceSidebar" class="sidebar-wrapper">
-  <div (click)="preventDefault($event)" [class.slide-in]="createServiceSidebar"  [class.slide-out]="!createServiceSidebar" class="sidebar-content">
-      <app-create-service (close)="onClose($event)"></app-create-service>
-
-  </div>
-
-</section>
